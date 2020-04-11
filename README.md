@@ -12,6 +12,8 @@ It provides statistics on the most popular stations, the most popular usage time
 
 Data can be filtered by day of the week, month, both, or neither.
 
+Data is for 2017.
+
 ### Files used
 chicago.csv
 new_york_city.csv
