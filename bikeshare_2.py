@@ -47,7 +47,7 @@ def get_filters():
             month = 'all'
             day = 'all'
             break
-        print('\nThat is not a valid filter period.  Please try again.')
+        print('\nYou have entered an invalid filter period.  Please enter a valid filter period.')
 
     print('-'*40)
 
