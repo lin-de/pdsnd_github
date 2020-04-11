@@ -47,7 +47,7 @@ def get_filters():
             month = 'all'
             day = 'all'
             break
-        print('\nThat is not a valid filter period.  Please try again.')
+        print('\nYou have entered an invalid filter period.  Please enter a valid filter period.')
 
     print('-'*40)
 
@@ -129,12 +129,12 @@ def station_stats(df):
     # display most commonly used start station
     start_station_count = df['Start Station'].value_counts()
     popular_start_station = start_station_count.index[0]
-    print('Most commonly used starting station: ', popular_start_station)
+    print('Most commonly used starting station: {}  Count: {}'.format(popular_start_station, start_station_count.values[0]))
 
     # display most commonly used end station
     end_station_count = df['End Station'].value_counts()
     popular_end_station = end_station_count.index[0]
-    print('Most commonly used end station: ', popular_end_station)
+    print('Most commonly used end station: {}   Count: {}'.format(popular_end_station, end_station_count.values[0]))
 
     # display most frequent combination of start station and end station trip
     df['start_end_station_combination'] = df['Start Station'] + ' / ' + df['End Station']
