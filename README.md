@@ -10,6 +10,8 @@ This is an interactive application to explore bikeshare data for Chicago, New Yo
 
 It provides statistics on the most popular stations, the most popular usage times, trip statistics, and user statistics.
 
+Data can be filtered by day of the week, month, both, or neither.
+
 ### Files used
 chicago.csv
 new_york_city.csv
