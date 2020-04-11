@@ -6,7 +6,7 @@ README file created 11-Apr-2020.
 Bikeshare Statistics Interactive Application
 
 ### Description
-This is an interactive application to explore bikeshare data.  
+This is an interactive application to explore bikeshare data for Chicago, New York City, and Washington DC.  
 
 It provides statistics on the most popular stations, the most popular usage times, trip statistics, and user statistics.
 
